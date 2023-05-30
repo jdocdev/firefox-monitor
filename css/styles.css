@@ -320,18 +320,16 @@ p {
 .footer {
     background: var(--black);
     display: flex;
-    justify-content: space-between;    
+    justify-content: center;    
     align-items: center;
 }
 
-.footer--logo h3 {
-    margin: 0.5em 2em;
-    color: var(--white);
+.footer--links {
+    padding: 2em;
 }
 
 .footer--links a {
-    color: var(--white);
-    margin-right: 2em;
+    color: var(--white);    
     text-decoration: none;
 }
 
