@@ -51,10 +51,6 @@ input {
   font-size: 2em;
 }
 
-.button__toggle.active {
-  content: "-";
-}
-
 .input__primary {
   padding: 10px;
 }
@@ -352,10 +348,6 @@ p {
   display: none;
   color: var(--gray-40);
   margin-bottom: 1em;
-}
-
-.button__toggle.active {
-  content: "-";
 }
 
 @media screen and (max-width: 700px) {
